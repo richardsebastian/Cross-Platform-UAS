@@ -1,0 +1,18 @@
+.profileHeader{
+    text-align: center;
+}
+
+.tes .ion-padding{
+    border-color: black;
+    border-width: .01em; 
+    border-style: solid; 
+}
+
+.avatar{
+    margin: auto;
+}
+
+
+.btn1{
+    width: 30%;
+}

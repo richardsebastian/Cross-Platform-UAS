@@ -1,0 +1,56 @@
+
+.wrapper{ display: flex; flex-flow: row; flex-wrap: wrap; justify-content: center; }
+.wrapper > *{ margin: 0 1rem 2rem; }
+
+.card{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  
+  width: 400px;
+  height: 400px; 
+
+}
+
+.card_title{ 
+    align-self: flex-end; padding: 3rem;
+    color: rgba(255,255,255,.90); font-size: 2rem;
+    line-height: 1;
+    font-weight: 600; 
+    position: absolute; left: 0; bottom: 0; 
+  }
+
+
+.card_thumbnail > img{
+  height: 100%;  
+}  
+
+.category{
+  margin-top: 15px;
+  background-color: yellow;
+  color: black;
+  padding:5px 15px 5px 15px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.container {
+  margin: auto;
+  position: relative;
+  width: 80%;
+}
+.container img {
+  
+  width: 350px;
+  height: 150px;
+}
+
+ion-avatar{
+  height: 80px !important;
+  width: 80px !important;
+  border-radius: 0%;
+}
+
+.avatarButton{
+  height: auto;
+}
